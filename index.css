@@ -103,12 +103,45 @@ body{
 .bh{
     background-color:rgb(43, 43, 43);
 }
-
+#badgeHolder:hover{
+    color: black;
+}
+.bh:hover{
+    color: black;
+    text-shadow: 2px 2px 4px #ffffff;
+}
 .nav-item{
     font-weight: bolder;
 }
 .nav-item:hover{
     text-shadow: 1px 1px 2px black, 0 0 25px rgb(36, 103, 228), 0 0 5px darkblue;
 }
+.gDesign{
+    text-align: center;
+    color: white;
+    background-color: rgb(59, 59, 59);
+}
+.gDesign:hover{
+  
+    text-shadow: 2px 2px 4px #b9b9b9;
+}
+.flex-container {
+    height: 300px;
+    display: flex;
+    background-color: rgb(59, 59, 59);
+  }
+  
+  .flex-container > div {
+    
+    height: 30px;
+    width:300px;
+    background-color: rgb(59, 59, 59);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .contactForm:hover{
+    text-shadow: 2px 2px 4px #b9b9b9;
+  }
 
 

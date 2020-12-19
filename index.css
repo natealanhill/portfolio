@@ -9,11 +9,13 @@ body{
     z-index: 0;
 }
 .jumboTronContainer{
-    background-image: linear-gradient( rgba(0, 65, 102, 0.521),rgb(77, 77, 77))
+    background-image: linear-gradient( rgba(0, 65, 102, 0.521),rgb(77, 77, 77));
+   
     /* background-image: url(C:\Users\natea\OneDrive\Desktop\ElevenFiftyProjects\projects\portfolioExample\assets\Vectorbprint.png); */
 }
 .aboutMeContainer{
     background-color: gray;
+    
     /* background-image: url("assets/blueprint.png"); */
 }
 .aboutMeContainer:hover{
@@ -37,10 +39,10 @@ body{
     text-shadow: 2px 2px 4px #000000;
 }
 #photo{
-    height: 200px;
+    height: 350px;
     position: sticky;
-    margin-left: 40%;
-    margin-top: -30%;
+    margin-left: 50%;
+    margin-top: -35%;
     border: 3px solid black;
     box-shadow: 5px 5px gray;
 }

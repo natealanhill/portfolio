@@ -1,3 +1,112 @@
-.body{
+body{
     background-color: rgb(65, 65, 65);
+    /* background-image: url(assets/Vectorbprint.png); */
 }
+#bckgrnd{
+    display: sticky;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.jumboTronContainer{
+    background-image: linear-gradient( rgba(0, 65, 102, 0.521),rgb(77, 77, 77))
+    /* background-image: url(C:\Users\natea\OneDrive\Desktop\ElevenFiftyProjects\projects\portfolioExample\assets\Vectorbprint.png); */
+}
+.aboutMeContainer{
+    background-color: gray;
+    /* background-image: url("assets/blueprint.png"); */
+}
+.aboutMeContainer:hover{
+    text-shadow: 2px 2px 4px #000000;
+}
+#jt{
+    background-image: linear-gradient(rgba(0, 65, 102, 0.521),rgb(77, 77, 77))
+}
+#jt:hover{
+    text-shadow: 2px 2px 4px #000000;
+}
+#l{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(119, 176, 230);
+}
+.jumbotron{
+    background-color: white;
+}
+.jumbtron:hover{
+    text-shadow: 2px 2px 4px #000000;
+}
+#photo{
+    height: 200px;
+    position: sticky;
+    margin-left: 40%;
+    margin-top: -30%;
+    border: 3px solid black;
+    box-shadow: 5px 5px gray;
+}
+#quote{
+    font-size: 30px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif 
+    color: black;
+    text-align: center;
+}
+#quote:hover{
+    text-shadow: 2px 2px 4px #000000;
+}
+#cssMonsterGrid{
+}
+#atag{
+    color: white;
+    text-decoration: underline;
+}
+.APIcontainer{
+    background-color: rgb(99, 99, 99);
+    /* background-image: url(assets/Vectorbprint.png); */   
+}
+.APIcontainer:hover{
+    text-shadow: 2px 2px 4px #000000;
+}
+.wdprojectscontainer{
+    background-color: rgb(75, 75, 75);
+}
+.wdprojectscontainer:hover{
+    text-shadow: 2px 2px 4px #000000;
+}
+#API{
+    text-align: center;
+    /* background-color:blue; */
+}
+#cf{
+    border: 5px solid black;
+    padding-left:100px;
+
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+#badgeHolder{
+    background-color: rgb(54, 54, 54);
+    color:rgb(116, 116, 116);
+    text-align: center;
+}
+
+#checkit{
+    font-size: x-large;
+    color: white;
+}
+.bh{
+    background-color:rgb(43, 43, 43);
+}
+
+.nav-item{
+    font-weight: bolder;
+}
+.nav-item:hover{
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(36, 103, 228), 0 0 5px darkblue;
+}
+
+

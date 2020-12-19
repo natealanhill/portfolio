@@ -11,14 +11,16 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark"
+  <div class="icon">
+    <i></i>
+  </div>
+   <nav class="navbar navbar-expand-lg navbar-dark"
     style="background-image: linear-gradient(rgb(77, 77, 77), rgba(0, 65, 102, 0.521))">
-    <!-- Just an image -->
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" >
       <img src="assets/intials.png" width="30" height="30" alt="" loading="lazy">
     </a>
 
-    <a class="navbar-brand" href="#">Nate Hill</a>
+    <a class="navbar-brand">Nate Hill</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,67 +28,169 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutMe">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#wdProjects">Web Development Projects</a>
         </li>
         <!-- <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#">Graphic Design</a>
         </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="#cf">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="assets/nhillresume.pdf" target="blank">Resume</a>
+        </li>
       </ul>
+      <a href="assets/nhillresume.pdf" target="blank">
+        <img src="assets/resumeicon.png">
+      </a>
     </div>
   </nav>
-  <div class="jumbotron">
-    <h1 class="display-4">Hello, </h1>
-    <p class="lead">Let's create something together! </p>
-    <hr class="my-4">
-    <p>Check out some of my favorite projects below.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </div>
 
-  <!-- Carousel -->
-  <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+
+ 
+  <div class="jumboTronContainer">
+    <div class="row">
+      <div class="col-md">
+        <div class="jumbotron" id="jt">
+          <h1> </h1>
+          <img src="assets/NAME.png">
+          <p class="lead" id="l">Let's create something together! </p>
+          <hr class="my-4">
+          <p id="checkit">Check out some of my favorite projects below.</p>
+          <a class="btn btn-primary btn-lg" href="#wdProjects" role="button">Learn more</a>
+        </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div> -->
-  <!-- Contact Form -->
-<div class="container">
-  <div class="row"
+ 
+  </div>
+  <img id="photo" src="assets/nateAndSon.jpg" height="50%">
 
-</div>
+  </div>
+  <div class="aboutMeContainer">
+    <br>
+    <div class="row" style="color: white">
+      <div class="col-md-1">
+        <p></p>
+      </div>
+      <div class="col-md-10" id="aboutMe">
+        <h2>About Me</h2>
+        <p> Have you ever heard the phrase Jack of all Trades? Maybe you have even heard the second part Master of None.
+          Would you believe me if I told you
+          there was a final piece of that quote?
+        </p>
+        <p id="quote">"A jack of all trades is a master of none, <br>
+          but oftentimes better than a master of one"</p>
+        <p> Learning to do new things, is one of the greatest parts about being human.
+        </p>
 
-  Let's Connect!
+      </div>
+      <div class="col-md-1">
+        <p></p>
+
+      </div>
+    </div>
+    <br>
+  </div>
+  <br>
 
 
-  <div class="contactForm">
+
+ 
+  <div class="APIcontainer">
+    <br>
+    <div class="row" style="color:white" id="wdProjects">
+      <div class="col-sm-1">
+        <p></p>
+      </div>
+      <div class="col-lg-10" id="API">
+        <h4>API Project</h4>
+        <p>Utilizing the Lorem Picsum API I was able to create a webpage that will randomly display
+          pictures that can be viewed by the user and will refresh with new images each time the user accesses
+          the site. I harnessed a small part of the power of Bootstrap to create this site.
+        </p>
+        <a id="atag" href="https://natealanhill.github.io/lorempicsumapi/" target="blank">
+          <img src="assets/Screenshot 2020-12-18 225839.png">
+        </a>
+        <br>
+        <a id="atag" href="https://natealanhill.github.io/lorempicsumapi/">Lorem Picsum API</a>
+
+      </div>
+      <div class="col-sm-1">
+
+      </div>
+    </div>
+    <br>
+  </div>
+  <br>
+  <div class="wdprojectscontainer"> <br>
+    <div class="row" style="color: white">
+    <div class="col-lg" style="text-align: center;">
+      <h4>Web Development Projects</h4>
+    </div>
+    </div>
+    <div class="row" style="color:white">
+      <div class="col-md-1"></div>
+      <div class="col-md-3" id="cssMonsterGrid">
+        <h5>CSS MONSTER</h5>
+        <a id="atag" href="https://natealanhill.github.io/lorempicsumapi/">
+          <img src="assets/CSSmonster.png" href="https://codepen.io/natehill/pen/PozXXqN">
+        </a>
+        <a id="atag" href="https://codepen.io/natehill/pen/PozXXqN" target="blank">CSS Monster</a>
+        <p>Click on the link above to be taken to the codepen.io that I used to create my first CSS creature.
+          <br> November 2020
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h5>Static Layout</h5>
+        <a id="atag" href="https://natealanhill.github.io/staticLayout/" target="blank">
+          <img src="assets/Lego2.jpg" height="100px" width="200px">
+        </a>
+        <a id="atag" href="https://natealanhill.github.io/staticLayout/" target="blank">Star Wars Static Layout</a>
+        <p>Click the link above to be taken to the Static Layout I created based on the Lego Star Wars Holiday Special
+          <br>
+          Novemeber 2020
+        </p>
+      </div>
+      <div class="col-md-3">
+        <h5>Other Projects</h5>
+        <img src="assets/intials.png">
+        <br>
+        <a id="atag" href="https://natealanhill.github.io/login_walkthrough/">Basic landing page for a website login</a>
+        <br>
+        <a id="atag" href="https://natealanhill.github.io/nytapi/">API Practice with the New York Times</a>
+
+      </div>
+      <div class="col-md-1">
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="bh">
+    <div class="row" id="badgeHolder">
+      <div class="col-lg-6">
+        <h5>Blue Badge API TBA</h5>
+      </div>
+      <div class="col-lg-6">
+        <h5>Red Badge API TBA</h5>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!-- Carousel -->
+ <!-- <div class="carouselContainer"> -->
+ 
+
+ <!-- </div> -->
+  
+
+  <div class="contactForm" id="cf" style="color: white; background-color:rgb(43, 43, 43);">
     <form action="https://formspree.io/f/mvovbgey" method="POST">
+      <h2>Let's Connect!</h2>
       <div id="yourEmail">
         <label>
           Your email:
@@ -96,8 +200,8 @@
       <br>
       <div id="message">
         <label>
-          Your message:
-          <textarea name="message"></textarea>
+          <p>Your message:</p>
+          <textarea name="message" rows="3" cols="100"></textarea>
         </label>
       </div>
       <br>
@@ -106,6 +210,13 @@
     </form>
   </div>
   </div>
+  <footer class="footer">
+    <p>Nate Hill<br>
+    <p>Decemeber 2020</p>
+    <p>Eleven Fifty Academy</p>
+    <br>
+  </footer>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
